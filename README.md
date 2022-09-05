@@ -1,6 +1,6 @@
 # Module_14_Challenge - Machine Learning Trading Bot
 
-This exercise on building Deep Learning Trading Bots demonstrates usage of the StandardScalar, and test_train_split packages within scikit-learn. These packages paired with the DateOffset Pandas Time Series packages within Tensorflow allow one to design a neural network from reduced data and analyze the model's efficacy. This could be due to the use of the 'relu' function for the output layer. However, every attempt at using the 'sigmoid' function was unsuccessful. With more time, I would investigate this issue further. 
+This exercise on building Deep Learning Trading Bots demonstrates usage of the StandardScalar, and test_train_split packages within scikit-learn. These packages paired with the DateOffset Pandas Time Series packages allow one to design a trading bot from historical data and analyze the model's efficacy.
 
 ---
 
@@ -28,9 +28,7 @@ This project leverages python 3.10 with the following packages:
 
 * [pandas](https://github.com/pandas-dev/pandas) - For available packages within pandas.
 
-* [tensorflow](https://www.tensorflow.org/api_docs/python/tf) - For available packages within tensorflow.
-
-* [tf.keras](https://www.tensorflow.org/api_docs/python/tf/keras) - For available packages within tf.keras.
+* [hvplot](https://hvplot.holoviz.org/) - For available packages within hvplot.
 
 * [pathlib](https://github.com/matplotlib/matplotlib) - For available packages within matplotlib.
 
@@ -47,7 +45,7 @@ This application requires you first install the following dependencies to run co
 ```python
   pip install pandas
   pip install scikit-learn
-  pip install --upgrade tensorflow
+  pip install hvplot
 ```
 
 ```jupyter lab
